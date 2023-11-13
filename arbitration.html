@@ -10,12 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header" data-aos="fade">
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="#">
@@ -133,7 +134,7 @@
             <section class="main__arbitration arbitration">
                 <div class="container">
                     <div class="arbitration__section-inner section-inner">
-                        <div class="arbitration__titling titling">
+                        <div class="arbitration__titling titling" data-aos="fade-down">
                             <h1 class="titling__title">
                                 Арбитраж
                             </h1>
@@ -154,10 +155,10 @@
                                 Узнать больше
                             </a>
                         </div>
-                        <h2 class="arbitration__bg-title bg-title">
+                        <h2 class="arbitration__bg-title bg-title" data-aos="fade-right">
                             Арбитражи
                         </h2>
-                        <div class="arbitration__circle circle">
+                        <div class="arbitration__circle circle" data-aos="zoom-in">
                             <svg width="1254" height="981" viewBox="0 0 1254 981" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.2">
@@ -170,12 +171,12 @@
                                 </g>
                             </svg>
                         </div>
-                        <div class="arbitration__body arbitration-body">
+                        <div class="arbitration__body arbitration-body" data-aos="zoom-in">
                             <div class="arbitration-body__img">
                                 <img class="arbitration-body__img-image" src="images/arbitration-img.svg" alt="img">
                             </div>
                             <ul class="arbitration-body__tiles tiles">
-                                <li class="tiles__item">
+                                <li class="tiles__item" data-aos="flip-up">
                                     <a class="tiles__tile tile" href="#">
                                         <div class="tile__top">
                                             <p class="tile__top-count">
@@ -191,7 +192,7 @@
                                         </p>
                                     </a>
                                 </li>
-                                <li class="tiles__item">
+                                <li class="tiles__item" data-aos="flip-up">
                                     <a class="tiles__tile tile" href="#">
                                         <div class="tile__top">
                                             <p class="tile__top-count">
@@ -214,7 +215,7 @@
             <section class="main__arbitration-types arbitration-types">
                 <div class="container">
                     <div class="arbitration-types__inner">
-                        <div class="arbitration-types__item arbitration-types-item">
+                        <div class="arbitration-types__item arbitration-types-item" data-aos="zoom-in">
                             <div class="arbitration-types-item__icon">
                                 <img class="arbitration-types-item__icon-img" src="images/arbitration-types-1.svg" alt="icon">
                             </div>
@@ -222,7 +223,7 @@
                                 Международный
                             </h4>
                         </div>
-                        <div class="arbitration-types__item arbitration-types-item">
+                        <div class="arbitration-types__item arbitration-types-item" data-aos="zoom-in">
                             <div class="arbitration-types-item__icon">
                                 <img class="arbitration-types-item__icon-img" src="images/arbitration-types-2.svg" alt="icon">
                             </div>
@@ -230,7 +231,7 @@
                                 Внутрибиржевой
                             </h4>
                         </div>
-                        <div class="arbitration-types__item arbitration-types-item">
+                        <div class="arbitration-types__item arbitration-types-item" data-aos="zoom-in">
                             <div class="arbitration-types-item__icon">
                                 <img class="arbitration-types-item__icon-img" src="images/arbitration-types-3.svg" alt="icon">
                             </div>
@@ -238,7 +239,7 @@
                                 Межбиржевой
                             </h4>
                         </div>
-                        <div class="arbitration-types__item arbitration-types-item">
+                        <div class="arbitration-types__item arbitration-types-item" data-aos="zoom-in">
                             <div class="arbitration-types-item__icon">
                                 <img class="arbitration-types-item__icon-img" src="images/arbitration-types-4.svg" alt="icon">
                             </div>
@@ -252,21 +253,20 @@
             <section class="main__contact contact" id="contact">
                 <div class="container">
                     <div class="contact__inenr">
-                        <div class="contact__box contact-box">
+                        <div class="contact__box contact-box" data-aos="fade-right">
                             <h2 class="contact-box__bg-title bg-title">
                                 СВЯЗЬ
                             </h2>
                             <img class="contact-box__img" src="images/contact-img.png" alt="img">
                         </div>
-                        <div class="contact__body contact-body">
-                            <h2 class="contact-body__title aos-init aos-animate" data-aos="fade-left">
+                        <div class="contact__body contact-body" data-aos="fade-down">
+                            <h2 class="contact-body__title aos-init aos-animate">
                                 Свяжитесь с нами!
                             </h2>
                             <p class="contact-body__text">
                                 Оставьте заявку на обратную связь и мы с вами свяжемся.
                             </p>
-                            <form class="contact-body__form contact-form aos-init aos-animate" action="#" method="post"
-                                data-aos="fade-left">
+                            <form class="contact-body__form contact-form aos-init aos-animate" action="#" method="post">
                                 <div class="contact-form__box">
                                     <input class="contact-form__box-input" type="text" placeholder="Имя" required="">
                                     <input class="contact-form__box-input" type="email" placeholder="Почта" required="">
@@ -387,6 +387,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 

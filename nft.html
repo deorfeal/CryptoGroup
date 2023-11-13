@@ -10,12 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header" data-aos="fade">
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="#">
@@ -133,7 +134,7 @@
             <section class="main__nft nft">
                 <div class="container">
                     <div class="nft__section-inner section-inner">
-                        <div class="nft__video video video--long">
+                        <div class="nft__video video video--long" data-aos="zoom-in">
                             <a class="video__inner" href="https://youtu.be/AqtjuzBmLXY">
                                 <img class="video__img" src="images/nft-video-img.jpg" alt="img">
                                 <div class="video__play">
@@ -146,7 +147,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="nft__titling titling titling--rigth">
+                        <div class="nft__titling titling titling--rigth" data-aos="fade-down">
                             <h1 class="titling__title">
                                 NFT
                             </h1>
@@ -164,7 +165,7 @@
                                 того, в блокчейне надежно хранится вся необходимая информация о нем.
                             </p>
                         </div>
-                        <div class="nft__circle circle">
+                        <div class="nft__circle circle" data-aos="zoom-in">
                             <svg width="1254" height="981" viewBox="0 0 1254 981" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.2">
@@ -184,7 +185,7 @@
                 <div class="container">
                     <div class="methods__inner">
                         <ul class="methods__tiles tiles">
-                            <li class="tiles__item">
+                            <li class="tiles__item" data-aos="flip-up">
                                 <a class="tiles__tile tile" href="#">
                                     <div class="tile__top">
                                         <p class="tile__top-count">
@@ -199,7 +200,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="tiles__item">
+                            <li class="tiles__item" data-aos="flip-up">
                                 <a class="tiles__tile tile" href="#">
                                     <div class="tile__top">
                                         <p class="tile__top-count">
@@ -214,7 +215,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="tiles__item">
+                            <li class="tiles__item" data-aos="flip-up">
                                 <a class="tiles__tile tile" href="#">
                                     <div class="tile__top">
                                         <p class="tile__top-count">
@@ -229,7 +230,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="tiles__item">
+                            <li class="tiles__item" data-aos="flip-up">
                                 <a class="tiles__tile tile" href="#">
                                     <div class="tile__top">
                                         <p class="tile__top-count">
@@ -244,7 +245,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="tiles__item">
+                            <li class="tiles__item" data-aos="flip-up">
                                 <a class="tiles__tile tile" href="#">
                                     <div class="tile__top">
                                         <p class="tile__top-count">
@@ -259,7 +260,7 @@
                                     </p>
                                 </a>
                             </li>
-                            <li class="tiles__item">
+                            <li class="tiles__item" data-aos="fade-left">
                                 <h2 class="methods__bg-title bg-title">
                                     Заработок
                                 </h2>
@@ -272,16 +273,16 @@
                 <div class="container">
                     <div class="about-nft__section-inner section-inner">
                         <div class="about-nft__titling titling">
-                            <h1 class="titling__title">
+                            <h1 class="titling__title" data-aos="fade-right">
                                 Перспективность NFT
                             </h1>
-                            <p class="titling__text">
+                            <p class="titling__text" data-aos="fade-right">
                                 Уникальность может быть разной. Так, самое первое СМС продали за 150 тысяч долларов, а
                                 первый твит основателя компании Twitter Джека Дóрси ушел за почти 3 млн. После него к
                                 NFT начали присматриваться и другие звезды.
                             </p>
                         </div>
-                        <div class="about-nft__video video">
+                        <div class="about-nft__video video" data-aos="zoom-in">
                             <a class="video__inner" href="https://youtu.be/_IKQNgL5Q0M">
                                 <img class="video__img" src="images/about-nft-video-img.jpg" alt="img">
                                 <div class="video__play">
@@ -300,29 +301,152 @@
             </section>
             <section class="main__marketplaces marketplaces">
                 <div class="container">
-                    <h2 class="marketplaces__title title">
-
+                    <h2 class="marketplaces__title title" data-aos="fade-down">
+                        NFT Маркетплейсы
                     </h2>
+                    <div class="marketplaces__inner">
+                        <div class="marketplaces__wrapper" data-aos="fade-down">
+                            <div class="marketplaces__content marketplaces-content" id="0">
+                                <p class="marketplaces-content__suptext">
+                                    ETH
+                                </p>
+                                <h2 class="marketplaces-content__title">
+                                    Rarible
+                                </h2>
+                                <p class="marketplaces-content__text">
+                                    Огромный и популярный марктет плейс по nft товарам, найди лучший для себя и получи
+                                    максимальный профит от нашего обучения и качественных иснтуркций
+                                </p>
+                                <a class="marketplaces-content__link btn" href="#">
+                                    Перейти
+                                </a>
+                            </div>
+                            <div class="marketplaces__content marketplaces-content marketplaces-content--acitve" id="1">
+                                <p class="marketplaces-content__suptext">
+                                    ETH
+                                </p>
+                                <h2 class="marketplaces-content__title">
+                                    Opensea
+                                </h2>
+                                <p class="marketplaces-content__text">
+                                    Огромный и популярный марктет плейс по nft товарам, найди лучший для себя и получи
+                                    максимальный профит от нашего обучения и качественных иснтуркций
+                                </p>
+                                <a class="marketplaces-content__link btn" href="#">
+                                    Перейти
+                                </a>
+                            </div>
+                            <div class="marketplaces__content marketplaces-content" id="2">
+                                <p class="marketplaces-content__suptext">
+                                    ETH
+                                </p>
+                                <h2 class="marketplaces-content__title">
+                                    Foundation
+                                </h2>
+                                <p class="marketplaces-content__text">
+                                    Огромный и популярный марктет плейс по nft товарам, найди лучший для себя и получи
+                                    максимальный профит от нашего обучения и качественных иснтуркций
+                                </p>
+                                <a class="marketplaces-content__link btn" href="#">
+                                    Перейти
+                                </a>
+                            </div>
+                            <div class="marketplaces__content marketplaces-content" id="3">
+                                <p class="marketplaces-content__suptext">
+                                    SOL
+                                </p>
+                                <h2 class="marketplaces-content__title">
+                                    Solanart
+                                </h2>
+                                <p class="marketplaces-content__text">
+                                    Огромный и популярный марктет плейс по nft товарам, найди лучший для себя и получи
+                                    максимальный профит от нашего обучения и качественных иснтуркций
+                                </p>
+                                <a class="marketplaces-content__link btn" href="#">
+                                    Перейти
+                                </a>
+                            </div>
+                            <div class="marketplaces__content marketplaces-content" id="4">
+                                <p class="marketplaces-content__suptext">
+                                    SOL
+                                </p>
+                                <h2 class="marketplaces-content__title">
+                                    Magiceden
+                                </h2>
+                                <p class="marketplaces-content__text">
+                                    Огромный и популярный марктет плейс по nft товарам, найди лучший для себя и получи
+                                    максимальный профит от нашего обучения и качественных иснтуркций
+                                </p>
+                                <a class="marketplaces-content__link btn" href="#">
+                                    Перейти
+                                </a>
+                            </div>
+                            <div class="marketplaces__content marketplaces-content" id="5">
+                                <p class="marketplaces-content__suptext">
+                                    SOL
+                                </p>
+                                <h2 class="marketplaces-content__title">
+                                    Solsea
+                                </h2>
+                                <p class="marketplaces-content__text">
+                                    Огромный и популярный марктет плейс по nft товарам, найди лучший для себя и получи
+                                    максимальный профит от нашего обучения и качественных иснтуркций
+                                </p>
+                                <a class="marketplaces-content__link btn" href="#">
+                                    Перейти
+                                </a>
+                            </div>
+                        </div>
+                        <div class="marketplaces__swiper marketplaces-swiper swiper" data-aos="zoom-in">
+                            <div class="swiper-wrapper">
+                                <div class="marketplaces-swiper__slide marketplaces-slide swiper-slide" data-id="0">
+                                    <img class="marketplaces-slide__img" src="images/marketplaces-img-1.jpg" alt="img">
+                                </div>
+                                <div class="marketplaces-swiper__slide marketplaces-slide swiper-slide" data-id="1">
+                                    <img class="marketplaces-slide__img" src="images/marketplaces-img-2.jpg" alt="img">
+                                </div>
+                                <div class="marketplaces-swiper__slide marketplaces-slide swiper-slide" data-id="2">
+                                    <img class="marketplaces-slide__img" src="images/marketplaces-img-3.jpg" alt="img">
+                                </div>
+                                <div class="marketplaces-swiper__slide marketplaces-slide swiper-slide" data-id="3">
+                                    <img class="marketplaces-slide__img" src="images/marketplaces-img-4.jpg" alt="img">
+                                </div>
+                                <div class="marketplaces-swiper__slide marketplaces-slide swiper-slide" data-id="4">
+                                    <img class="marketplaces-slide__img" src="images/marketplaces-img-5.jpg" alt="img">
+                                </div>
+                                <div class="marketplaces-swiper__slide marketplaces-slide swiper-slide" data-id="5">
+                                    <img class="marketplaces-slide__img" src="images/marketplaces-img-6.jpg" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="marketplaces__circle circle" data-aos="zoom-in">
+                            <svg width="1254" height="981" viewBox="0 0 1254 981" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.2">
+                                    <path d="M1043.73 235.419C1076.1 299.79 1054.05 384.175 991.679 468.746C929.341 553.266 826.889 637.703 699.079 701.967C571.27 766.231 442.391 798.109 337.369 797.739C232.284 797.369 151.405 764.733 119.038 700.362C86.6719 635.991 108.713 551.606 171.088 467.035C233.426 382.515 335.879 298.078 463.688 233.814C591.498 169.55 720.376 137.672 825.398 138.042C930.483 138.412 1011.36 171.048 1043.73 235.419Z" stroke="#BDBDBD" stroke-width="2"></path>
+                                    <path d="M1134.73 280.419C1167.1 344.79 1145.05 429.175 1082.68 513.746C1020.34 598.266 917.889 682.703 790.079 746.967C662.27 811.23 533.391 843.109 428.369 842.739C323.284 842.369 242.405 809.733 210.038 745.362C177.672 680.991 199.713 596.606 262.088 512.035C324.426 427.515 426.879 343.078 554.688 278.814C682.498 214.55 811.376 182.672 916.398 183.042C1021.48 183.412 1102.36 216.048 1134.73 280.419Z" stroke="#BDBDBD" stroke-width="2"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="main__contact contact" id="contact">
                 <div class="container">
                     <div class="contact__inenr">
-                        <div class="contact__box contact-box">
+                        <div class="contact__box contact-box" data-aos="fade-right">
                             <h2 class="contact-box__bg-title bg-title">
                                 СВЯЗЬ
                             </h2>
                             <img class="contact-box__img" src="images/contact-img.png" alt="img">
                         </div>
-                        <div class="contact__body contact-body">
-                            <h2 class="contact-body__title aos-init aos-animate" data-aos="fade-left">
+                        <div class="contact__body contact-body" data-aos="fade-down">
+                            <h2 class="contact-body__title aos-init aos-animate">
                                 Свяжитесь с нами!
                             </h2>
                             <p class="contact-body__text">
                                 Оставьте заявку на обратную связь и мы с вами свяжемся.
                             </p>
-                            <form class="contact-body__form contact-form aos-init aos-animate" action="#" method="post"
-                                data-aos="fade-left">
+                            <form class="contact-body__form contact-form aos-init aos-animate" action="#" method="post">
                                 <div class="contact-form__box">
                                     <input class="contact-form__box-input" type="text" placeholder="Имя" required="">
                                     <input class="contact-form__box-input" type="email" placeholder="Почта" required="">
@@ -353,10 +477,10 @@
 
                     </span>
                     <span>
-                        
+
                     </span>
                     <span>
-                        
+
                     </span>
                     <a class="socials__box-link" href="#">
                         <img src="images/instagram-icon.svg" alt="skype">
@@ -443,6 +567,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 

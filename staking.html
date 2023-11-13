@@ -10,12 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header" data-aos="fade">
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="#">
@@ -133,7 +134,7 @@
             <section class="main__staking staking">
                 <div class="container">
                     <div class="staking__section-inner section-inner">
-                        <div class="staking__video video">
+                        <div class="staking__video video" data-aos="zoom-in">
                             <a class="video__inner" href="https://youtu.be/Gng3IpNdo8I">
                                 <img class="video__img" src="images/staking-video-img.jpg" alt="img">
                                 <div class="video__play">
@@ -146,7 +147,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="staking__titling titling titling--rigth">
+                        <div class="staking__titling titling titling--rigth" data-aos="fade-down">
                             <h1 class="titling__title">
                                 Стейкинг
                             </h1>
@@ -159,10 +160,10 @@
                                 По сути это аналог банковского депозита с более высокой доходностью.
                             </p>
                         </div>
-                        <h2 class="staking__bg-title bg-title">
+                        <h2 class="staking__bg-title bg-title" data-aos="fade-right">
                             Стейкинг
                         </h2>
-                        <div class="staking__circle circle">
+                        <div class="staking__circle circle" data-aos="zoom-in">
                             <svg width="1254" height="981" viewBox="0 0 1254 981" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.2">
@@ -181,8 +182,8 @@
             <section class="main__about-staking about-staking">
                 <div class="container">
                     <div class="about-staking__inner">
-                        <div class="about-staking__item about-staking-item">
-                            <div class="about-staking-item__top about-staking-item-top">
+                        <div class="about-staking__item about-staking-item" data-aos="zoom-in">
+                            <div class="about-staking-item__top about-staking-item-top" data-aos="fade-right">
                                 <div class="about-staking-item-top__icon">
                                     <img class="about-staking-item-top__icon-img" src="images/staking-icon-1.svg" alt="img">
                                 </div>
@@ -190,7 +191,7 @@
                                     Пассивный заработок
                                 </h3>
                             </div>
-                            <p class="about-staking-item__text">
+                            <p class="about-staking-item__text" data-aos="fade-right">
                                 Что такое стейкинг
                                 <br> <br>
                                 Под стекингом нужно понимать получение пассивного заработка за счет простого хранения
@@ -199,8 +200,8 @@
                                 вмешательства и недостоверности размещаемых данных.
                             </p>
                         </div>
-                        <div class="about-staking__item about-staking-item">
-                            <div class="about-staking-item__top about-staking-item-top">
+                        <div class="about-staking__item about-staking-item" data-aos="zoom-in">
+                            <div class="about-staking-item__top about-staking-item-top" data-aos="fade-right">
                                 <div class="about-staking-item-top__icon">
                                     <img class="about-staking-item-top__icon-img" src="images/staking-icon-2.svg" alt="img">
                                 </div>
@@ -208,14 +209,14 @@
                                     Вознаграждение за хранение
                                 </h3>
                             </div>
-                            <p class="about-staking-item__text">
+                            <p class="about-staking-item__text" data-aos="fade-right">
                                 Когда пользователи выбирают блокчейн с таким алгоритмом и хранят на своих кошельках
                                 монеты, им начисляется вознаграждение. Это стимулирует участников системы вовлекаться в
                                 процесс стейкинга и обеспечивать тем самым работоспособность блокчейна.
                             </p>
                         </div>
-                        <div class="about-staking__item about-staking-item">
-                            <div class="about-staking-item__top about-staking-item-top">
+                        <div class="about-staking__item about-staking-item" data-aos="zoom-in">
+                            <div class="about-staking-item__top about-staking-item-top" data-aos="fade-right">
                                 <div class="about-staking-item-top__icon">
                                     <img class="about-staking-item-top__icon-img" src="images/staking-icon-3.svg" alt="img">
                                 </div>
@@ -223,7 +224,7 @@
                                     PoS алгоритм
                                 </h3>
                             </div>
-                            <p class="about-staking-item__text">
+                            <p class="about-staking-item__text" data-aos="fade-right">
                                 При использовании алгоритма PoS действует следующий принцип: чем более крупную сумму
                                 хранит пользователь, тем больше блоков он сможет сгенерировать.
                             </p>
@@ -234,21 +235,20 @@
             <section class="main__contact contact" id="contact">
                 <div class="container">
                     <div class="contact__inenr">
-                        <div class="contact__box contact-box">
+                        <div class="contact__box contact-box" data-aos="fade-right">
                             <h2 class="contact-box__bg-title bg-title">
                                 СВЯЗЬ
                             </h2>
                             <img class="contact-box__img" src="images/contact-img.png" alt="img">
                         </div>
-                        <div class="contact__body contact-body">
-                            <h2 class="contact-body__title aos-init aos-animate" data-aos="fade-left">
+                        <div class="contact__body contact-body" data-aos="fade-down">
+                            <h2 class="contact-body__title aos-init aos-animate">
                                 Свяжитесь с нами!
                             </h2>
                             <p class="contact-body__text">
                                 Оставьте заявку на обратную связь и мы с вами свяжемся.
                             </p>
-                            <form class="contact-body__form contact-form aos-init aos-animate" action="#" method="post"
-                                data-aos="fade-left">
+                            <form class="contact-body__form contact-form aos-init aos-animate" action="#" method="post">
                                 <div class="contact-form__box">
                                     <input class="contact-form__box-input" type="text" placeholder="Имя" required="">
                                     <input class="contact-form__box-input" type="email" placeholder="Почта" required="">
@@ -369,6 +369,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 
